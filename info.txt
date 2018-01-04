@@ -1,0 +1,17 @@
+1. build
+2. copy cdi.war to tomcat installation directory to webapps
+3. run tomcat
+4. in the browser: http://localhost:8080/cdi/servletcdi
+
+
+or 
+
+1. mvn clean install
+2. mvn eclipse:clean eclipse:eclipse
+3. Import project via File->Import->Existing project into Workspace in the Eclipse
+4. Install Tomcat e.g 8.5
+5. Add tomcat to Eclipse
+6. Add application in the Eclipse->Servers->Tomcat->Add and Remove
+7. Run Tomcat
+
+both: servlet or filter should work with CDI
